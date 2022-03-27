@@ -1,0 +1,50 @@
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* QTabWidget  */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+QTabWidget::pane
+{
+     background-image: url(/ARTv2/Core/Icons/System/light_background.png);
+     position: absolute;
+     border: 2px solid black;
+}
+
+
+
+QTabBar::tab
+{
+    background-color: rgb(101, 98, 98);
+    border: 2px solid black;
+    width: 100px;
+    height: 30px;
+    font: bold 10pt;
+    color: rgb(40,40,40);
+
+}
+
+QTabWidget::right-corner
+{
+    height: 30px;
+    left: -24px;
+    bottom: 18px;
+}
+
+QTabBar::tab:selected
+{
+    background-color: #9b7643;
+}
+
+
+QTabBar::tab:hover
+{
+    background-color: #9b4a43;
+    color: white;
+}
+
+QTabBar::tab:!selected
+{
+    margin-top: 0px;
+    height: 30px;
+}

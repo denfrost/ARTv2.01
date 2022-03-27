@@ -1,0 +1,1574 @@
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* QLabel  */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+QLabel
+{
+    background: transparent;
+}
+
+QLabel#heading
+{
+    background-image: url(/ARTv2/Core/Icons/System/backgrounds/dark_background.png);
+    font: bold 12px;
+    border: 1px solid black;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* QRadioButton  */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+QRadioButton
+{
+    spacing: 5px;
+    margin-top: 2px;
+    color: rgb(255,255,255);
+    padding: 2px;
+    border-radius: 10px;
+    background: transparent;
+}
+
+QRadioButton::hover
+{
+    color: #437c9b;
+}
+
+QRadioButton::indicator
+{
+    background-color: rgb(80,80,80);
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+QRadioButton::indicator:checked
+{
+    background-color: #437c9b;
+}
+
+QRadioButton::indicator:unchecked:hover
+{
+    background-color: rgb(120,120,120);
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* QCheckBox  */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+QCheckBox
+{
+    spacing: 5px;
+    margin-top: 2px;
+    color: rgb white;
+    font: 12px;
+    background-color: transparent;
+    background: transparent;
+}
+
+QCheckBox::hover
+{
+    color: rgb(255,255,255);
+}
+
+QCheckBox::indicator:unchecked
+{
+    background-color: white;
+    border: 2px solid black;
+}
+
+QCheckBox::indicator:checked
+{
+    image: url(/ARTv2/Core/Icons/System/checked.png);
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* QComboBox  */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+QComboBox
+{
+    border: 2px solid black;
+    border-radius: 4px;
+    background-image: url(/ARTv2/Core/Icons/System/backgrounds/dark_background.png);
+}
+
+QComboBox#mid
+{
+    border: 2px solid black;
+    border-radius: 4px;
+    background-image: url(/ARTv2/Core/Icons/System/backgrounds/mid_background.png);
+}
+
+
+QComboBox#light
+{
+    border: 2px solid black;
+    border-radius: 4px;
+    background-image: url(/ARTv2/Core/Icons/System/backgrounds/light_background.png);
+}
+
+QComboBox:on
+{
+    padding-top: 3px;
+    padding-left: 4px;
+}
+
+QComboBox:editable
+{
+    background: rgb(60,60,60);
+}
+
+QComboBox QAbstractItemView
+{
+    border: 2px solid black;
+    selection-background-color: #437c9b;
+    border-width: 2px;
+}
+
+QComboBox::down-arrow
+{
+    image: url(/ARTv2/Core/Icons/System/down.png);
+}
+
+QComboBox QAbstractItemView
+{
+    background-color: rgb(30,30,30);
+    border-radius: 2px;
+    border: 2px solid black;
+    selection-background-color: #437c9b;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* QPushButton  */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+QPushButton
+{
+    background-image: url(/ARTv2/Core/Icons/System/backgrounds/button_background.png);
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: rgb(40,40,40);
+}
+
+QPushButton::hover
+{
+    background-image: url(/ARTv2/Core/Icons/System/backgrounds/button_background_hover.png);
+    margin-left: 1px;
+    margin-right: 1px;
+    color: white;
+}
+
+QPushButton::pressed
+{
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+QPushButton:disabled
+{
+    background-image: url(/ARTv2/Core/Icons/System/backgrounds/button_background_disabled.png);
+}
+
+QPushButton:enabled
+{
+    background-image: url(/ARTv2/Core/Icons/System/backgrounds/button_background_hover.png);
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+QPushButton#module
+{
+    background-image: url(/ARTv2/Core/Icons/System/backgrounds/module_button.png);
+    border: 2px solid black;
+    border-radius: 5px;
+    font: bold 12px;
+    color: white;
+}
+
+QPushButton::hover#module
+{
+    background-image: url(/ARTv2/Core/Icons/System/backgrounds/module_button_hover.png);
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+QPushButton::pressed#module
+{
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+QPushButton#tool
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+QPushButton::hover#tool
+{
+    border: 1px solid #437c9b;
+}
+
+QPushButton::pressed#tool
+{
+    margin-top: -2px;
+    margin-bottom: -2px;
+    margin-left: -2px;
+    margin-right: -2px;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+QPushButton#expand
+{
+    background-image: url(/ARTv2/Core/Icons/System/expand_all.png);
+    border: 0px;
+    border-radius: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+QPushButton::hover#expand
+{
+    background-image: url(/ARTv2/Core/Icons/System/expand_all_hover.png);
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+QPushButton#collapse
+{
+    background-image: url(/ARTv2/Core/Icons/System/collapse_all.png);
+    border: 0px;
+    border-radius: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+QPushButton::hover#collapse
+{
+    background-image: url(/ARTv2/Core/Icons/System/collapse_all_hover.png);
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+QPushButton#settings
+{
+    background-image: url(/ARTv2/Core/Icons/System/backgrounds/button_background_hover.png);
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font: bold;
+    color: white;
+}
+QPushButton::hover#settings
+{
+    background-image: url(/ARTv2/Core/Icons/System/backgrounds/button_background.png);
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+}
+
+}
+QPushButton::checked#settings
+{
+    background-image: url(/ARTv2/Core/Icons/System/backgrounds/button_background.png);
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+}
+
+QPushButton:disabled#settings
+{
+    background-image: url(/ARTv2/Core/Icons/System/backgrounds/button_background_disabled.png);
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+QPushButton#orange
+{
+    background-image: url(/ARTv2/Core/Icons/System/backgrounds/button_background_orange.png);
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font: bold;
+    color: white;
+}
+QPushButton::hover#orange
+{
+    background-image: url(/ARTv2/Core/Icons/System/backgrounds/button_background_orange_hover.png);
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+QPushButton#gaussian
+{
+    background-image: url(/ARTv2/Core/Icons/System/gaussian.png);
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font: bold;
+    color: white;
+}
+QPushButton::checked#gaussian
+{
+    background-image: url(/ARTv2/Core/Icons/System/gaussian_on.png);
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+}
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+QPushButton#soft
+{
+    background-image: url(/ARTv2/Core/Icons/System/soft.png);
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font: bold;
+    color: white;
+}
+QPushButton::checked#soft
+{
+    background-image: url(/ARTv2/Core/Icons/System/soft_on.png);
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+}
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+QPushButton#solid
+{
+    background-image: url(/ARTv2/Core/Icons/System/solid.png);
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font: bold;
+    color: white;
+}
+QPushButton::checked#solid
+{
+    background-image: url(/ARTv2/Core/Icons/System/solid_on.png);
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+QPushButton#square
+{
+    background-image: url(/ARTv2/Core/Icons/System/square.png);
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font: bold;
+    color: white;
+}
+QPushButton::checked#square
+{
+    background-image: url(/ARTv2/Core/Icons/System/square_on.png);
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+}
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+QPushButton#animselect
+{
+    background-image: url(/ARTv2/Core/Icons/System/animSelect.png);
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font: bold;
+    color: white;
+}
+QPushButton::hover#animselect
+{
+    background-image: url(/ARTv2/Core/Icons/System/animSelect_hover.png);
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+QPushButton#animselectset
+{
+    background-image: url(/ARTv2/Core/Icons/System/select_set.png);
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font: bold;
+    color: white;
+}
+QPushButton::hover#animselectset
+{
+    background-image: url(/ARTv2/Core/Icons/System/select_set_hover.png);
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+QPushButton#animreset
+{
+    background-image: url(/ARTv2/Core/Icons/System/animReset.png);
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font: bold;
+    color: white;
+}
+QPushButton::hover#animreset
+{
+    background-image: url(/ARTv2/Core/Icons/System/animReset_hover.png);
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+QPushButton#animexport
+{
+    background-image: url(/ARTv2/Core/Icons/System/export.png);
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font: bold;
+    color: white;
+}
+QPushButton::hover#animexport
+{
+    background-image: url(/ARTv2/Core/Icons/System/export_hover.png);
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+}
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+QPushButton#animimport
+{
+    background-image: url(/ARTv2/Core/Icons/System/import.png);
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font: bold;
+    color: white;
+}
+QPushButton::hover#animimport
+{
+    background-image: url(/ARTv2/Core/Icons/System/import_hover.png);
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+QPushButton#animmatch
+{
+    background-image: url(/ARTv2/Core/Icons/System/matchRange.png);
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font: bold;
+    color: white;
+}
+QPushButton::hover#animmatch
+{
+    background-image: url(/ARTv2/Core/Icons/System/matchRange_hover.png);
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+QPushButton#animspace
+{
+    background-image: url(/ARTv2/Core/Icons/System/animSpace.png);
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font: bold;
+    color: white;
+}
+QPushButton::hover#animspace
+{
+    background-image: url(/ARTv2/Core/Icons/System/animSpace_hover.png);
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+QPushButton#animsettings
+{
+    background-image: url(/ARTv2/Core/Icons/System/rigSettings.png);
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font: bold;
+    color: white;
+}
+QPushButton::hover#animsettings
+{
+    background-image: url(/ARTv2/Core/Icons/System/rigSettings_hover.png);
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+QPushButton#animpose
+{
+    background-image: url(/ARTv2/Core/Icons/System/animPose.png);
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font: bold;
+    color: white;
+}
+QPushButton::hover#animpose
+{
+    background-image: url(/ARTv2/Core/Icons/System/animPose_hover.png);
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+QPushButton#autotan
+{
+    background-image: url(/ARTv2/Core/Icons/System/tan_auto.png);
+    border: 1px solid black;
+    border-radius: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font: bold;
+    color: white;
+}
+QPushButton::hover#autotan
+{
+    background-image: url(/ARTv2/Core/Icons/System/tan_auto_hover.png);
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+QPushButton#splinetan
+{
+    background-image: url(/ARTv2/Core/Icons/System/tan_spline.png);
+    border: 1px solid black;
+    border-radius: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font: bold;
+    color: white;
+}
+QPushButton::hover#splinetan
+{
+    background-image: url(/ARTv2/Core/Icons/System/tan_spline_hover.png);
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+QPushButton#flattan
+{
+    background-image: url(/ARTv2/Core/Icons/System/tan_flat.png);
+    border: 1px solid black;
+    border-radius: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font: bold;
+    color: white;
+}
+QPushButton::hover#flattan
+{
+    background-image: url(/ARTv2/Core/Icons/System/tan_flat_hover.png);
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+QPushButton#steptan
+{
+    background-image: url(/ARTv2/Core/Icons/System/tan_step.png);
+    border: 1px solid black;
+    border-radius: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font: bold;
+    color: white;
+}
+QPushButton::hover#steptan
+{
+    background-image: url(/ARTv2/Core/Icons/System/tan_step_hover.png);
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+QPushButton#lintan
+{
+    background-image: url(/ARTv2/Core/Icons/System/tan_linear.png);
+    border: 1px solid black;
+    border-radius: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font: bold;
+    color: white;
+}
+QPushButton::hover#lintan
+{
+    background-image: url(/ARTv2/Core/Icons/System/tan_linear_hover.png);
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+QPushButton#plattan
+{
+    background-image: url(/ARTv2/Core/Icons/System/tan_plateau.png);
+    border: 1px solid black;
+    border-radius: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font: bold;
+    color: white;
+}
+QPushButton::hover#plattan
+{
+    background-image: url(/ARTv2/Core/Icons/System/tan_plateau_hover.png);
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+}
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+QPushButton#clamptan
+{
+    background-image: url(/ARTv2/Core/Icons/System/tan_clamped.png);
+    border: 1px solid black;
+    border-radius: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font: bold;
+    color: white;
+}
+QPushButton::hover#clamptan
+{
+    background-image: url(/ARTv2/Core/Icons/System/tan_clamped_hover.png);
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+}
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+QPushButton#select
+{
+    background-image: url(/ARTv2/Core/Icons/System/select.png);
+    border: 1px solid black;
+    border-radius: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font: bold;
+    color: white;
+}
+QPushButton::hover#select
+{
+    background-image: url(/ARTv2/Core/Icons/System/select_hover.png);
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+QPushButton#load
+{
+    background-image: url(/ARTv2/Core/Icons/System/load.png);
+    border: 1px solid black;
+    border-radius: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font: bold;
+    color: white;
+}
+QPushButton::hover#load
+{
+    background-image: url(/ARTv2/Core/Icons/System/load_hover.png);
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+}
+
+
+QPushButton#save
+{
+    background-image: url(/ARTv2/Core/Icons/System/save.png);
+    border: 1px solid black;
+    border-radius: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font: bold;
+    color: white;
+}
+QPushButton::hover#save
+{
+    background-image: url(/ARTv2/Core/Icons/System/save_hover.png);
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+QPushButton#hotkey
+{
+    background-image: url(/ARTv2/Core/Icons/System/backgrounds/40x15_off.png);
+    border: 1px solid black;
+    border-radius: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+}
+QPushButton::checked#hotkey
+{
+    background-image: url(/ARTv2/Core/Icons/System/backgrounds/40x15_on.png);
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+QPushButton#pickwalk
+{
+    background-image: url(/ARTv2/Core/Icons/System/backgrounds/pickwalk_button.png);
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+}
+QPushButton::hover#pickwalk
+{
+    background-image: url(/ARTv2/Core/Icons/System/backgrounds/pickwalk_button_hover.png);
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+}
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+QPushButton#riglock
+{
+    background-image: url(/ARTv2/Core/Icons/System/rig_lock.png);
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+}
+
+QPushButton::hover#riglock
+{
+    background-image: url(/ARTv2/Core/Icons/System/rig_unlock.png);
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+}
+
+QPushButton::pressed#riglock
+{
+    background-image: url(/ARTv2/Core/Icons/System/rig_unlock.png);
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+QPushButton#pose
+{
+    border: 4px solid black;
+    border-radius: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+}
+
+QPushButton::hover#pose
+{
+    border: 4px solid #437c9b;
+    border-radius: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+}
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+QPushButton#blue
+{
+    background-image: url(/ARTv2/Core/Icons/System/backgrounds/imagePlanePose.png);
+    border-radius: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+}
+
+QPushButton::hover#blue
+{
+    border: 1px solid #437c9b;
+    border-radius: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+}
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+QPushButton#brown
+{
+    background-image: url(/ARTv2/Core/Icons/System/backgrounds/imagePlanePose2.png);
+    border-radius: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+}
+
+QPushButton::hover#brown
+{
+    border: 1px solid #437c9b;
+    border-radius: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+QPushButton#purple
+{
+    background-image: url(/ARTv2/Core/Icons/System/backgrounds/imagePlanePose3.png);
+    border-radius: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+}
+
+QPushButton::hover#purple
+{
+    border: 1px solid #437c9b;
+    border-radius: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+QPushButton#green
+{
+    background-image: url(/ARTv2/Core/Icons/System/backgrounds/imagePlanePose4.png);
+    border-radius: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+}
+
+QPushButton::hover#green
+{
+    border: 1px solid #437c9b;
+    border-radius: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+}
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* QProgressBar  */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+QProgressBar{
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    font: 87 10pt "Arial";
+    color: rgb(255,255,255);
+}
+
+QProgressBar::chunk {
+    background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 rgb(67,124,155), stop:1 rgb(82,113,130));
+    width: 10px;
+    margin: 0.5px;
+}
+
+
+QProgressBar#max
+{
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    font: 87 10pt "Arial Black";
+    color: rgb(255,255,255);
+}
+
+QProgressBar::chunk#max
+{
+    background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 rgb(155,118,67), stop:1 rgb(130,110,82));
+    width: 10px;
+    margin: 0.5px;
+}
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* QSlider */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+QSlider
+{
+    background: transparent;
+    color: black;
+}
+
+QSlider::groove:horizontal
+{
+    height: 6px;
+    background: black;
+}
+
+QSlider::groove:vertical
+{
+    height: 6px;
+    background: black;
+}
+
+
+QSlider::handle:horizontal
+{
+    background: #437c9b;
+    border: 1px solid black;
+    width: 18px;
+    margin: -4px 0;
+    border-radius: 3px;
+}
+
+QSlider::handle:vertical
+{
+    background: #437c9b;
+    border: 1px solid black;
+    width: 18px;
+    margin: -4px 0;
+    border-radius: 3px;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* QMenuBar  */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+QMenuBar
+{
+    background-image: url(/ARTv2/Core/Icons/System/backgrounds/dark_background.png);
+    border: 1px solid black;
+}
+
+QMenuBar::item
+{
+    spacing: 3px;
+    padding: 1px 4px;
+    border-radius: 4px;
+    font: bold 10px;
+}
+
+QMenuBar::item:pressed
+{
+    background: rgb(25,175,255);
+    color: black;
+}
+
+QMenu
+{
+    background-image: url(/ARTv2/Core/Icons/System/backgrounds/dark_background.png);
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* QLineEdit  */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+
+QLineEdit
+{
+    border: 2px solid rgb(0,0,0);
+    border-radius: 5px;
+    background-image: url(/ARTv2/Core/Icons/System/backgrounds/dark_background.png);
+    font: bold 12px;
+    selection-background-color: black;
+}
+
+QLineEdit[keys=true]
+{
+    border: 2px solid rgb(0,0,0);
+    border-radius: 5px;
+    background-image: url(/ARTv2/Core/Icons/System/backgrounds/button_background_orange.png);
+    font: bold 12px;
+    selection-background-color: black;
+}
+
+
+QLineEdit[keys=false]
+{
+    border: 2px solid rgb(0,0,0);
+    border-radius: 5px;
+    background-image: url(/ARTv2/Core/Icons/System/backgrounds/dark_background.png);
+    font: bold 12px;
+    selection-background-color: black;
+}
+
+
+QLineEdit::focus
+{
+    border: 1px solid rgb(25,175,255);
+
+}
+
+QLineEdit#mid
+{
+    border: 2px solid rgb(0,0,0);
+    border-radius: 5px;
+    background-image: url(/ARTv2/Core/Icons/System/backgrounds/mid_background.png);
+    font: bold 12px;
+    selection-background-color: black;
+}
+
+QLineEdit::focus#mid
+{
+    border: 1px solid rgb(25,175,255);
+
+}
+
+QLineEdit::disabled
+{
+    border: 0px solid rgb(0,0,0);
+    border-radius: 0px;
+    background-image: url(/ARTv2/Core/Icons/System/backgrounds/light_background.png);
+    color: rgb(45,45,45);
+}
+QLineEdit#light
+{
+    border: 2px solid rgb(0,0,0);
+    border-radius: 5px;
+    background-image: url(/ARTv2/Core/Icons/System/backgrounds/light_background.png);
+    font: bold 12px;
+    selection-background-color: black;
+}
+
+QLineEdit::focus#light
+{
+    border: 1px solid rgb(25,175,255);
+
+}
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* QScrollArea and QScrollBar  */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+QScrollArea
+{
+    border: 2px solid black;
+}
+
+QScrollArea#light
+{
+    border: 2px solid black;
+    background-image: url(/ARTv2/Core/Icons/System/backgrounds/light_background.png);
+}
+
+
+QScrollBar:vertical
+ {
+     border: 1px solid grey;
+     margin: 10px 0px 10px 0px;
+ }
+
+QScrollBar::handle:vertical
+ {
+     background-image: url(/ARTv2/Core/Icons/System/backgrounds/button_background.png);
+     border: 1px solid black;
+     min-height: 5px;
+     border-radius: 4px;
+ }
+
+QScrollBar::add-line:vertical
+{
+    border-image: url(/ARTv2/Core/Icons/System/down.png);
+    height: 10px;
+    width: 10px;
+    subcontrol-position: bottom;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::sub-line:vertical
+{
+    border-image: url(/ARTv2/Core/Icons/System/up.png);
+    height: 10px;
+    width: 10px;
+    subcontrol-position: top;
+    subcontrol-origin: margin;
+}
+
+
+QScrollBar:horizontal
+ {
+     border: 1px solid grey;
+     margin: 0px 0px 0px 0px;
+ }
+
+QScrollBar::handle:horizontal
+ {
+     background-image: url(/ARTv2/Core/Icons/System/backgrounds/button_background.png);
+     border: 1px solid black;
+     min-height: 5px;
+     border-radius: 4px;
+ }
+
+QScrollBar::add-line:horizontal
+{
+    border-image: url(/ARTv2/Core/Icons/System/down.png);
+    height: 10px;
+    width: 10px;
+    subcontrol-position: right;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::sub-line:horizontal
+{
+    border-image: url(/ARTv2/Core/Icons/System/up.png);
+    height: 10px;
+    width: 10px;
+    subcontrol-position: left;
+    subcontrol-origin: margin;
+}
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* QListView  */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+QListView
+{
+    background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 rgb(60,60,60), stop:1 rgb(30,30,30));
+    background-image: url(/ARTv2/Core/Icons/System/backgrounds/light_background.png);
+    border-radius: 5px;
+    border: 2px solid rgb(9,10,12);
+    shadow: rgb(9,10,12);
+    font: bold 12px;
+}
+
+QListView::item:selected
+{
+    border: 1px solid rgb(30,30,30);
+}
+
+
+QListView::item:selected:active
+{
+    background: #437c9b;
+    color: rgb(30,30,30);
+}
+
+QListView::item:hover
+{
+    background: rgb(80,80,80);
+    border: 1px solid rgb(30,30,30);
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+QListView#dark
+{
+    background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 rgb(60,60,60), stop:1 rgb(30,30,30));
+    background-image: url(/ARTv2/Core/Icons/System/backgrounds/mid_background.png);
+    border-radius: 5px;
+    border: 2px solid rgb(9,10,12);
+    shadow: rgb(9,10,12);
+    font: bold 12px;
+}
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* QTreeView  */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+QTreeView
+{
+    background-image: url(/ARTv2/Core/Icons/System/backgrounds/light_background.png);
+    color: rgb(202, 207, 210);
+}
+
+QTreeWidget
+{
+    background-image: url(/ARTv2/Core/Icons/System/backgrounds/light_background.png);
+    color: rgb(202, 207, 210);
+}
+
+QTreeWidget::item
+{
+    background-image: url(/ARTv2/Core/Icons/System/backgrounds/light_background.png);
+    color: rgb(255, 255, 255);
+}
+
+QTreeWidget::item:hover
+{
+    color: rgb(255,174,0);
+}
+
+QTreeWidget::item:selected
+{
+    color: rgb(25,175,255);
+}
+
+
+QTreeView::branch
+{
+     background-image: url(/ARTv2/Core/Icons/System/backgrounds/light_background.png);
+     color: white;
+}
+
+
+QTreeView::branch:has-children:!has-siblings:closed,
+QTreeView::branch:closed:has-children:has-siblings
+{
+        image: url(/ARTv2/Core/Icons/System/up.png);
+}
+
+QTreeView::branch:open:has-children:!has-siblings,
+QTreeView::branch:open:has-children:has-siblings
+{
+        image: url(/ARTv2/Core/Icons/System/down.png);
+}
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* QSpinBox  */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+QSpinBox
+{
+    padding-right: 15px;
+    border: 2px solid rgb(9,10,12);
+    border-radius: 5px;
+    background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 rgb(80,80,80), stop:1 rgb(60,60,60));
+    font: bold 12px;
+    selection-background-color: #437c9b;
+}
+
+QSpinBox::enabled
+{
+    padding-right: 15px;
+    border: 2px solid rgb(9,10,12);
+    border-radius: 5px;
+    background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 rgb(80,80,80), stop:1 rgb(60,60,60));
+    font: bold 12px;
+    selection-background-color: #437c9b;
+}
+
+
+QSpinBox::disabled
+{
+    padding-right: 15px;
+    border: 2px solid rgb(9,10,12);
+    border-radius: 5px;
+    background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 rgb(80,80,80), stop:1 rgb(60,60,60));
+    font: bold 12px;
+    selection-background-color: rgb(25,175,255);
+}
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* QTextEdit  */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+QTextEdit
+{
+	color: white;
+	background-image: url(/ARTv2/Core/Icons/System/backgrounds/background_dark.png);
+
+}
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* QFrame  */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+QStackedWidget
+{
+    background-image: url(/ARTv2/Core/Icons/System/backgrounds/mid_background.png);
+}
+
+QStackedWidget#border
+{
+    background-image: url(/ARTv2/Core/Icons/System/backgrounds/mid_background.png);
+    border: 2px solid #437c9b;
+}
+
+QStackedWidget#dark
+{
+    background-image: url(/ARTv2/Core/Icons/System/backgrounds/dark_background.png);
+}
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* QGroupBox  */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+QGroupBox
+{
+    background-image: url(/ARTv2/Core/Icons/System/backgrounds/light_background.png);
+    border: 2px solid #437c9b;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font: bold 12px;
+}
+
+QGroupBox#mid
+{
+    background-image: url(/ARTv2/Core/Icons/System/backgrounds/mid_background.png);
+    border: 2px solid #437c9b;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font: bold 12px;
+}
+
+
+QGroupBox::title
+{
+    subcontrol-origin: margin;
+    subcontrol-position: top left;
+    padding: 0 3px;
+    font: bold 12px;
+}
+
+QGroupBox::indicator:unchecked
+{
+    image: url(/ARTv2/Core/Icons/System/up.png);
+}
+
+QGroupBox::indicator:checked
+{
+    image: url(/ARTv2/Core/Icons/System/down.png);
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* QFrame  */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+QFrame
+{
+    background-image: url(/ARTv2/Core/Icons/System/backgrounds/mid_background.png);
+}
+
+QFrame#border
+{
+    background-image: url(/ARTv2/Core/Icons/System/backgrounds/mid_background.png);
+    border: 3px solid black;
+}
+
+QFrame#dark
+{
+    background-image: url(/ARTv2/Core/Icons/System/backgrounds/dark_background.png);
+}
+
+QFrame#darkborder
+{
+    background-image: url(/ARTv2/Core/Icons/System/backgrounds/dark_background.png);
+    border: 3px solid black;
+}
+
+QFrame#light
+{
+    background-image: url(/ARTv2/Core/Icons/System/backgrounds/light_background.png);
+    border: 2px solid black;
+}
+
+QFrame#lightnoborder
+{
+    background-image: url(/ARTv2/Core/Icons/System/backgrounds/light_background.png);
+}
+
+QFrame#edit
+{
+    background-image: url(/ARTv2/Core/Icons/System/backgrounds/edit_background.png);
+}
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* QWidget  */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+QWidget
+{
+    background-image: url(/ARTv2/Core/Icons/System/backgrounds/mid_background.png);
+}
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* QTabWidget  */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+QTabWidget
+{
+    background: transparent;
+    padding: 4px;
+
+}
+
+QTabWidget::pane#border
+{
+     border-top: 2px solid black;
+     border-left: 1px solid black;
+     border-right: 2px solid black;
+}
+
+
+QTabBar::tab
+{
+    border: 0px solid black;
+    width: 60px;
+    height: 60px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+QTabBar::tab:selected
+{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    height: 60px;
+    width: 60px;
+    border: 0px solid black;
+}
+
+QTabBar::tab:!selected
+{
+    margin-top: 8px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    height: 52px;
+    width: 60px;
+    border: 0px solid black;
+}
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* QToolTip  */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+QToolTip
+{
+    background-color: rgb(40, 40, 40);
+    color: rgb(155, 118, 67);
+    border: black solid 3px;
+}

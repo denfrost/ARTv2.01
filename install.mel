@@ -1,0 +1,65 @@
+// This script installs and loads the ARTv2 plugin, and configures it to load automatically.
+// To run, open the Script Editor and Source the file.
+
+
+// ---- GLOBAL PROCEDURES ----
+
+// Dummy procedure used to locate the source script file path
+global proc scriptLocator (){}
+
+// Return path to directory containing this script
+global proc string scriptLocation ()
+{
+    string $whatIs=`whatIs scriptLocator`;
+    string $fullPath=`substring $whatIs 25 999`;  // Strip the human-readable preamble before the file path
+    python("import os");  // Just in case this hasn't been imported already by some other scope
+    return python("os.path.dirname('" + $fullPath + "')");
+}
+
+// ---- INSTALLATION SCRIPT ----
+
+string $scriptLocation = scriptLocation();
+
+python("import os");
+python("home = os.path.expanduser(\"~\")");
+
+// Generate platform-relevant path to user's Maya modules directory.
+if (`about -os` == "mac")
+{
+    python("mayaModDir = os.path.join(home, 'Library', 'Preferences', 'Autodesk', 'maya', 'modules'");
+}
+else
+{
+    python("mayaModDir = os.path.join(home, 'maya', 'modules')");
+}
+python("scriptLoc = '" + $scriptLocation + "'");
+
+// Attempt to generate relative path to the script, otherwise use the install script's location
+// NB: This is formatted to look like 4 lines, but it's actually a single
+// string containing 2 logical lines manually broken with \n
+python("try:\
+    modDir = os.path.normpath(os.path.relpath(scriptLoc, mayaModDir))\n\
+except:\
+    modDir = scriptLoc");
+
+// Set up names and paths for generating the module file
+python("modName = 'ARTv2'");
+python("modFileName = modName + '.mod'");
+python("modFile = os.path.join(scriptLoc, modFileName)");
+python("newModFile = os.path.join(mayaModDir, modFileName)");
+python("replace_str = 'REPLACE_TO_YOUR_PATH'");
+
+// Create new module file from template
+python("if not os.path.exists(mayaModDir): os.makedirs(mayaModDir)");
+python("with open(modFile, 'r') as f: template = f.read()");
+python("with open(newModFile, 'w') as f: f.write(template.replace(replace_str, modDir))");
+
+// Load plugin and set to auto-load
+
+loadModule -ld `python("newModFile")`;
+
+string $result = `confirmDialog -title "ARTv2" -message "ARTv2 installed! Maya will now close.\nPlease restart Maya \
+and load the ARTv2 plugin\n(set auto-load as well!) and follow the prompts."
+     -button "Finish"`;
+
+quit -force;
